@@ -1,0 +1,13 @@
+This application allows to solve arbitrary sequences of formulas incrementally.  For a sequence of formulas, an input file for this application describes how to update a formula to its successor. The application then interprets these update instructions and translates them into IPASIR API calls. 
+
+A detailed description of this approach, in particular the algorithm to generate update instructions based on a sequence of related formulas as well as the used format, is currently under review for SAT 2015. 
+
+The files in folder 'input'  correspond to benchmark problems used for the last Hardware Model Checking Competition (HWMCC 2014). Competition benchmarks are given as And-Inverter Graphs (AIGs). By means of the BMC-based tool aigbmc, CNFs for checking AIGs can be generated incrementally. Each input file contains update instructions for the sequence of CNFs of one benchmark problem.
+
+Further input files can be generated if needed.
+
+16.06.2015
+TU WIEN
+Uwe Egly, Florian Lonsing, and Johannes Oetsch
+
+

@@ -1,0 +1,21 @@
+== COMiniSatPS Incremental (version 2Sun_nopre) ==
+
+COMiniSatPS variation modified for incremental SAT.  Notable changes to
+the non-incremental base solver:
+
+ - Supports incremental pre-processing (incremental variable elimination).
+ - Uses unique strategies specifically targeted for incremental SAT.
+
+The 2Sun_nopre version disables the no-restart phase (i.e, no phase switching)
+and the incremental pre-processing.
+
+
+== ipasir.h ==
+
+The glue code assumes that `ipasir.h' exist in the IPASIR root directory,
+as stated in `<IPASIR root>/app/README').
+
+
+== System Description ==
+
+A PDF description file will be submitted to the competition event separately.

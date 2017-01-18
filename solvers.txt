@@ -1,0 +1,8 @@
+abcdsat_inc
+cominisatps2sun
+cominisatps2sun_nopre
+cryptominisat4
+cryptominisat4auto
+glucose4
+riss_521
+riss_600

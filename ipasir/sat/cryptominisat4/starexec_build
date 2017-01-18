@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -e
+set -x
+
+rm -rf bin/crypto*
+rm -rf bin/cusp*
+
+rm -rf build
+mkdir build
+
+(
+cd build || exit
+M4RI_ROOT_DIR=$(pwd)/../m4ri-20140914/myinstall cmake -DENABLE_PYTHON_INTERFACE=OFF -DNOVALGRIND=ON -DNOZLIB=ON -DONLY_SIMPLE=ON -DSTATICCOMPILE=ON -DCMAKE_BUILD_TYPE=Release ..
+make -j4 VERBOSE=1
+cp lib/libipasircryptominisat4.a ../
+)
