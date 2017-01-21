@@ -884,7 +884,7 @@ lbool Solver::search(int& nof_conflicts)
                 // New variable decision:
                 decisions++;
                 next = pickBranchLit();
-
+				//printf("Literal: %d", next.x);
                 if (next == lit_Undef)
                     // Model found:
                     return l_True;
@@ -943,6 +943,7 @@ static double luby(double y, int x){
 // NOTE: assumptions passed in member-variable 'assumptions'.
 lbool Solver::solve_()
 {
+	//printf("started solving");
     model.clear();
     conflict.clear();
     if (!ok) return l_False;
@@ -965,6 +966,7 @@ lbool Solver::solve_()
     add_tmp.clear();
 #endif
     // Search:
+    resetActivities();
     int phase_allotment = 100;
     for (;;){
         int weighted = glucose_restart ? phase_allotment * 2 : phase_allotment;
@@ -1014,7 +1016,7 @@ lbool Solver::solve_()
     next_T2_reduce = conflicts + 10000;
     next_L_reduce = conflicts + 10000;
 #endif
-
+	//printf("finished solving");
     return status;
 }
 

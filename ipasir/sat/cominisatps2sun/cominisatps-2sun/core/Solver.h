@@ -301,6 +301,7 @@ protected:
 
     // Maintaining Variable/Clause activity:
     //
+    void     resetActivities();
     void     varDecayActivity ();                      // Decay all variables with the specified factor. Implemented by increasing the 'bump' value instead.
     void     varBumpActivity  (Var v);                 // Increase a variable with the current 'bump' value.
     void     claDecayActivity ();                      // Decay all clauses with the specified factor. Implemented by increasing the 'bump' value instead.
@@ -383,6 +384,15 @@ inline void Solver::varBumpActivity(Var v) {
     // Update order_heap with respect to new activity:
     if (order_heap_no_r  .inHeap(v)) order_heap_no_r  .decrease(v);
     if (order_heap_glue_r.inHeap(v)) order_heap_glue_r.decrease(v); }
+    
+inline void Solver::resetActivities()
+{
+	for (int i = 0; i < nVars(); i++)
+	{
+		activity_no_r[i] = 1e1;
+		activity_glue_r[i] = 1e1;
+	}
+}
 
 inline void Solver::claDecayActivity() { cla_inc *= (1 / clause_decay); }
 inline void Solver::claBumpActivity (Clause& c) {
