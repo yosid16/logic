@@ -1,0 +1,212 @@
+
+Part 1 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: -1UNSAT
+real 0
+
+Part 2 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 3 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 4 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 5 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 6 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 7 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 3UNSAT
+real 0
+
+Part 8 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 63446UNSAT
+real 0
+
+Part 9 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 74019UNSAT
+real 0
+
+Part 10 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 42713UNSAT
+real 0
+
+Part 11 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 95093UNSAT
+real 1
+
+Part 12 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 63442UNSAT
+real 0
+
+Part 13 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 31692UNSAT
+real 1
+
+Part 14 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 105629UNSAT
+real 2
+
+Part 15 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 21312UNSAT
+real 4
+
+Part 16 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 65343UNSAT
+real 6
+
+Part 17 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 63456UNSAT
+real 10
+
+Part 18 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 133224UNSAT
+real 15
+
+Part 19 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 54780UNSAT
+real 29
+
+Part 20 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 33794UNSAT
+real 34
+
+Part 21 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 54920UNSAT
+real 55
+
+Part 22 of benchmarks/incremental/6s24.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+max: 54920UNSAT
+real 0
+
+Part 23 of benchmarks/incremental/6s24.xcnf:
+UNSAT
+real 0
+
+ Total time for solving: 157
+c [cominisatps2sun]
+c [cominisatps2sun]        calls           23         0.2 per second
+c [cominisatps2sun]     restarts          970         9.7 per second
+c [cominisatps2sun]    conflicts       168294      1676.2 per second
+c [cominisatps2sun]    decisions       434821      4330.7 per second
+c [cominisatps2sun] propagations    494757880   4927671.0 per second
+c [cominisatps2sun]
+wtime=158.03
