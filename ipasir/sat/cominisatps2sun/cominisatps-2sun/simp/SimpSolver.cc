@@ -103,7 +103,6 @@ lbool SimpSolver::solve_(bool do_simp, bool turn_off_simp)
 //printf("c assumptions:");
 //for (int i = 0; i < assumptions.size(); i++) printf(" %s%d", sign(assumptions[i])?"-":"", var(assumptions[i])+1);
 //printf("\n");
-
     vec<Var> extra_frozen;
     lbool    result = l_True;
 

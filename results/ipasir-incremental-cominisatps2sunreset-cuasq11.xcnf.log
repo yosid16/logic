@@ -1,0 +1,176 @@
+
+Part 1 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 2 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 3 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 4 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 5 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 6 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 7 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 8 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 9 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 10 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 11 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 12 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 1
+
+Part 13 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 1
+
+Part 14 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 3
+
+Part 15 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 6
+
+Part 16 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 10
+
+Part 17 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 17
+
+Part 18 of benchmarks/incremental/cuasq11.xcnf:
+c ============================[ Search Statistics ]==============================
+c | Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+c |           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+c ===============================================================================
+c ===============================================================================
+UNSAT
+real 0
+
+Part 19 of benchmarks/incremental/cuasq11.xcnf:
+UNSAT
+real 0
+
+ Total time for solving: 38
+c [cominisatps2sun]
+c [cominisatps2sun]        calls           19         0.7 per second
+c [cominisatps2sun]     restarts          804        30.4 per second
+c [cominisatps2sun]    conflicts       233715      8823.4 per second
+c [cominisatps2sun]    decisions       301492     11382.2 per second
+c [cominisatps2sun] propagations    117220886   4425433.6 per second
+c [cominisatps2sun]
+wtime=38.77

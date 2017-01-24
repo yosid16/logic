@@ -117,6 +117,16 @@ class Heap {
         if (heap.size() > 1) percolateDown(0);
         return x; 
     }
+    
+    int showMax()
+    {
+		if (!empty())
+		{
+			return heap.first();
+		}
+		
+		return -1;
+	}
 
 
     // Rebuild the heap from scratch, using the elements in 'ns':

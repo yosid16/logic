@@ -18,8 +18,8 @@ sats="`ls sat/*/makefile|sed -e 's,sat/,,' -e 's,/makefile,,'`"
 
 
 #Ours :)
-apps="ipasir-incremental"
-sats="cominisatps2sun"
+#apps="ipasir-incremental"
+#sats="cominisatps2sun"
 
 
 [ x"$sats" = x ] && die "no 'sat/*/makefile' found"

@@ -26,4 +26,6 @@ IPASIRSOLVER=$sat \
 make -C app/$app/ all
 [ -f app/$app/$app ] || die "could not build 'app/$app/$app'"
 install -s app/$app/$app bin/$target
+rm ../bin/$target
+cp bin/$target ../bin/$target
 msg "generated target 'bin/$target'"

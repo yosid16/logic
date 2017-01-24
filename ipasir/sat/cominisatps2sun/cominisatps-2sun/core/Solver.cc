@@ -24,6 +24,7 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 #include "mtl/Sort.h"
 #include "core/Solver.h"
+#include <ctime>
 
 using namespace Minisat;
 
@@ -261,11 +262,27 @@ Lit Solver::pickBranchLit()
         if (order_heap.empty()){
             next = var_Undef;
             break;
-        }else
+        }else{			
             next = order_heap.removeMin();
+            srand(time(NULL));
+            
+            //if (rand()%(1000) < 10)
+            //{
+			//	Var last = order_heap.showMax();            
+			//	printf("max: %d", last);				
+			//}
+		}
+            
 
     return next == var_Undef ? lit_Undef : mkLit(next, polarity[next]);
 }
+
+//void PrintMax()
+//{
+//    Heap<VarOrderLt>& order_heap = glucose_restart ? order_heap_glue_r : order_heap_no_r;
+//    Var last = order_heap.showMax();            
+//	printf("max: %d", last);				    
+//}
 
 
 /*_________________________________________________________________________________________________
@@ -966,7 +983,7 @@ lbool Solver::solve_()
     add_tmp.clear();
 #endif
     // Search:
-    resetActivities();
+    //resetActivities();
     int phase_allotment = 100;
     for (;;){
         int weighted = glucose_restart ? phase_allotment * 2 : phase_allotment;
@@ -1016,6 +1033,9 @@ lbool Solver::solve_()
     next_T2_reduce = conflicts + 10000;
     next_L_reduce = conflicts + 10000;
 #endif
+    Heap<VarOrderLt>& order_heap = glucose_restart ? order_heap_glue_r : order_heap_no_r;
+    Var last = order_heap.showMax();            
+	printf("max: %d\n", last);
 	//printf("finished solving");
     return status;
 }
