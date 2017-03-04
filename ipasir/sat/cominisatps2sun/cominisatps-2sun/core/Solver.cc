@@ -266,11 +266,11 @@ Lit Solver::pickBranchLit()
             next = order_heap.removeMin();
             srand(time(NULL));
             
-            //if (rand()%(1000) < 10)
-            //{
-			//	Var last = order_heap.showMax();            
-			//	printf("max: %d", last);				
-			//}
+            if ((rand() % 10000) < 100)
+            {
+				//Var last = order_heap.showMax();            
+				printf("picked: %d", next);				
+			}
 		}
             
 
@@ -1034,8 +1034,8 @@ lbool Solver::solve_()
     next_L_reduce = conflicts + 10000;
 #endif
     Heap<VarOrderLt>& order_heap = glucose_restart ? order_heap_glue_r : order_heap_no_r;
-    Var last = order_heap.showMax();            
-	printf("max: %d\n", last);
+    //Var last = order_heap.showMax();            
+	//printf("max: %d\n", last);
 	//printf("finished solving");
     return status;
 }

@@ -122,7 +122,7 @@ class Heap {
     {
 		if (!empty())
 		{
-			return heap.first();
+			return heap.last();
 		}
 		
 		return -1;
